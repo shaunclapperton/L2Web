@@ -1,0 +1,67 @@
+html {
+    background-image: url(images/bg1.jpg);
+    font-family: 'century gothic';
+}
+
+body {
+    margin: 0px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 15vw auto 15vw;
+    grid-template-rows: 15vh 70vh 15vh;
+}
+
+nav {
+    background-color: darkorange;
+    opacity: 75%;
+    grid-column: 1/4;
+    align-self: center;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    margin: 100px 5vw;
+    text-decoration: none;
+   
+}
+
+nav a:hover {
+    
+
+    
+}
+
+section {
+    background-color: darkorange;
+    grid-column: 2/3;
+    align-self: center;
+    min-height: 50vh;
+    opacity: 75%;
+   
+}
+
+footer {
+    background: darkorange; 
+    grid-column: 1/4;
+    align-self: center;
+    opacity: 75%;
+   
+}
+
+footer p {
+    margin: 5px 0px;
+    text-align: center; 
+}
+
+h1 {
+    color: black;
+    margin: 10px 20px;
+}
+
+p {
+    color: black;
+    margin: 10px 20px;
+}
