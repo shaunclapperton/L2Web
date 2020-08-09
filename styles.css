@@ -5,27 +5,27 @@ html {
 }
 
 body {
-    display: grid;
+  display: grid;   /* grid display */
 }
 
 
     
 
 img {
-    width: 24.5%;
-    border: 1px solid black;
-    border-color: black;
+    width: 24.5%;             /* image width */
+    border: 1px solid black;   /* image border width */
+    border-color: black;     /* image border color */
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 2px 4px;
+    padding: 2px 4px;           /* padding size */
 }
 
 
 .column {
-    flex: 50%;
+    flex: 50%;        
     padding: 2px 4px;
 }
 
@@ -38,8 +38,8 @@ img {
 
 .main {
     display: grid;
-    grid-template-columns: 15vw 67vw 15vw;
-    grid-template-rows: 15vh auto 15vh;
+    grid-template-columns: 15vw 67vw 15vw;        /* grids */
+    grid-template-rows: 15vh auto 15vh;        /* grids */
     justify-self: center;
 }
 
@@ -52,38 +52,40 @@ nav {
 }
 
 nav a {
-    color: black;
+    color: black;       /* nav text color */
     margin: 100px 5vw;
-    text-decoration: none;
+    text-decoration: none;     /* removes underline off link */
    
 }
 
 nav a:hover {
-    color: white;
+    color: white;        /* nav white hover */
     
 
     
 }
 
-section {
-    background-color: darkorange;
+section {          /* main section */
+    background-color: darkorange;     
     grid-column: 2/3;
     align-self: center;
     min-height: 50vh;
-    opacity: 75%;
+    opacity: 75%;  /* makes section partly clear */
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 100px);
    
    
 }
 
 footer {
-    background: darkorange; 
+    background: darkorange;   /* footer decoration */
     grid-column: 1/4;
     align-self: center;
     opacity: 75%;
    
 }
 
-footer p {
+footer p {       /* footer text */
     margin: 5px 0px;
     text-align: center; 
 }
@@ -93,7 +95,7 @@ h1 {
     margin: 20px 20px;
 }
 
-p {
+p {          /* text editing */
     color: black;
     margin: 10px 20px;
     display: inline-block;

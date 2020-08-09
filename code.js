@@ -124,8 +124,8 @@ if (randQ == 3) {
     }
    
     setTimeout(//resets the page after 3 seconds to ask the user another question.
-        function(){window.location.href='contact.html';}
-        ,3000);
+        function(){window.location.href='quiz.html';}
+        ,2500);
 }
 
 window.onload = function () {// Loads the question on quiz page.
